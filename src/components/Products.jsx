@@ -1,4 +1,5 @@
 import React from "react";
+import CardProduct from "./CardProduct/CardProduct";
 
 function Products() {
   return (
@@ -6,6 +7,7 @@ function Products() {
       <section>
         <div className="content">
           <h2>Produto</h2>
+          <CardProduct />
         </div>
       </section>
     </div>

@@ -3,9 +3,10 @@ import "./App.css";
 import Perfil from "./components/Perfil";
 import Address from "./components/Address";
 import Products from "./components/Products";
-import { Link, Routes, Route, Outlet } from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
+import UploadPage from "./components/UploadPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="perfil" element={<Perfil />} />
           <Route path="endereco" element={<Address />} />
           <Route path="produtos" element={<Products />} />
+          <Route path="upload" element={<UploadPage />} />
         </Route>
       </Routes>
     </div>

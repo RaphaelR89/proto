@@ -78,7 +78,7 @@ function Perfil() {
             </div>
 
             <div className="submit">
-              <input type="submit" />
+              <button type="submit">Enviar</button>
               <button
                 type="button"
                 onClick={() => {
